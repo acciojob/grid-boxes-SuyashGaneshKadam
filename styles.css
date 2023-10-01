@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+#grid{
+	display: grid;
+	width:90vw;
+	grid-template-columns:repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	gap: 5px;
+	grid-template-areas:
+		"d1 d1 d1 d1"
+	"d2 d3 d4 d4"
+	"d2 d5 d5 d6"
+	"d2 d7 d8 d9"
+	"d2 d10 d10 d10";
+}
+div{
+	background-color : green;
+}
+#div-1{
+	grid-area:d1;
+}
+#div-2{
+	grid-area:d2;
+}
+#div-3{
+	grid-area:d3;
+}
+#div-4{
+	grid-area:d4;
+}
+#div-5{
+	grid-area:d5;
+}
+#div-6{
+	grid-area:d6;
+}
+#div-7{
+	grid-area:d7;
+}
+#div-8{
+	grid-area:d8;
+}
+#div-9{
+	grid-area:d9;
+}
+#div-10{
+	grid-area:d10;
+}
