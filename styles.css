@@ -17,14 +17,14 @@ div{
 	grid-column: span 4 / auto;
 }
 #div-2{
-	grid-row: 2 / -1;
+	grid-row: span 4 / auto;
 }
 #div-4{
-	grid-column: 3 / -1;
+	grid-column: span 2 / auto;
 }
 #div-5{
-	grid-column:  2/ 4;
+	grid-column:  span 2 / auto;
 }
 #div-10{
-	grid-column: 2 / -1;
+	grid-column: span 3 / auto;
 }
