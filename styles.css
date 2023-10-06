@@ -1,13 +1,25 @@
 /*  your css code here. If applicable */
 #grid{
 	display: grid;
-	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+	grid-template-columns: repeat(4,242.5px);
 	grid-template-rows: repeat(5, 124px);
 	gap: 5px;
 }
 div{
 	background-color : green;
 }
-#grid>div:nth-child(1){
-	grid-column: span 4 / auto;
+#div-1{
+	grid-column: 1 / -1;
+}
+#div-2{
+	grid-row: 2 / -1;
+}
+#div-4{
+	grid-column: 3 / -1;
+}
+#div-5{
+	grid-column:  2/ 4;
+}
+#div-10{
+	grid-column: 2 / -1;
 }
